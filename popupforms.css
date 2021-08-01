@@ -1,0 +1,85 @@
+.custom-form {
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.customInput {
+    font-family: sans-serif;
+    width: 550px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#regBtn {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+
+    width: 558px;
+    height: 43px;
+
+    margin-bottom: 10px;
+
+    background: rgb(255, 90, 95);
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+#avatar, .photos {
+    font-size: 20px;
+    width: 326px;
+}
+
+#alreadyMember {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    width: 556px;
+    margin-top: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(18, 147, 166);
+}
+
+#exitBtn {
+    cursor: pointer;
+    background-color: transparent;
+    color: buttontext;
+    display: block;
+    margin: 10px;
+    border-width: 0;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+#forgotPassword {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+#popuptitle {
+    color: #484848;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}

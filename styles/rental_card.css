@@ -1,0 +1,80 @@
+.housings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+
+    display: inline-block;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+img {
+    width: inherit;
+}
+
+#title, #description {
+    overflow-wrap: break-spaces;
+}
+
+#container {
+    padding: 0 16px 16px;
+}
+
+#container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#location {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(255, 90, 95);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.column {
+    margin: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card #title {
+    font-size: small;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #00afc0;
+}
+
+#rating-res {
+    color: #4CAF50;
+}
+
+#rating-res:hover {
+    color: red;
+}

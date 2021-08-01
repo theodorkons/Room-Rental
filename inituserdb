@@ -1,0 +1,7 @@
+create database rental_database;
+
+CREATE USER 'choco'@'localhost' IDENTIFIED BY
+'chocoPass';
+
+GRANT ALL PRIVILEGES ON rental_database.* TO
+'choco'@'localhost';

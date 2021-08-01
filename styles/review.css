@@ -1,0 +1,75 @@
+.rating-widget {
+	list-style:none;
+	display:inline-block;
+	vertical-align:baseline;
+	padding:0;
+	margin:0;
+}
+
+.rating-widget a {
+	float:right;
+	font-size:180%;
+	line-height:.8;
+	text-shadow: 0 0 3px gray;
+	color:#eee;
+	text-decoration:none;
+}
+
+.rating-widget a.selected,
+.rating-widget a.selected ~ a {
+	color:orange;
+	text-shadow: 0 0 3px;
+}
+
+.rating-widget a.selected-by-me,
+.rating-widget a.selected-by-me ~ a {
+	color:red;
+	text-shadow: 0 0 3px;
+}
+
+.rating-widget a:hover,
+.rating-widget a:hover ~ a,
+.rating-widget a:focus,
+.rating-widget a:focus ~ a{
+	color:#0bf !important;
+	text-shadow: 0 0 3px;
+}
+
+.rating-widget a::after {
+	content: "\2605";
+}
+
+#popup-review-title{
+	color: #484848;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+.review{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+
+.review > *{
+	margin-left: 10px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.review > .rating{
+	padding-top: 10px;
+}
+
+.review > .review-text{
+	padding-bottom: 10px;
+}
+
+#reviews{
+	overflow: auto;
+	max-height: 500px;
+}

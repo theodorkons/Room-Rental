@@ -1,0 +1,104 @@
+#main-body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #484848;
+}
+
+p{
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+}
+
+#side-nav a:link{
+    text-decoration: none;
+    font-size: 16px ;
+    margin: 0;
+    padding: 0;
+}
+
+#side-nav a:visited{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,ol,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+#side-nav{
+    top: 100px;
+    position: sticky;
+    float: left;
+    width:20%;
+    height:100%;
+    border: 1px solid #ccc;
+    color: #484848;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+#side-nav a{
+    display: block;
+    color: #484848;
+    padding: 10px;
+}
+
+#side-nav a:hover, a:active{
+    color: grey;
+}
+
+.menu{
+    padding: 50px;
+    width: 70%;
+
+    margin-left: auto;
+    margin-right: 0;
+    top: 50px;
+}
+
+#u-img{
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin-right:10px !important;
+    padding-bottom: 2px;
+}
+
+.head, .content{
+    border: 1px solid #ccc;
+    position: relative;
+    display: block;
+}
+
+.head{
+    background-color: #dce0e0;
+    text-align: center;
+    text-decoration: none;
+    color: #484848;
+}
+
+.content:after{
+    padding: 30px;
+    height: 500px;
+}
+
+.head ~.content{
+    padding: 30px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#prentals ~ .housings{
+    height: auto !important;
+}
